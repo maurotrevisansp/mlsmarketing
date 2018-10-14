@@ -1,0 +1,15 @@
+C:\SVN\Projetos.Net\MLSMarketing\MLSMarketing\obj\Debug\MLSMarketing.csproj.CoreCompileInputs.cache
+C:\SVN\Projetos.Net\MLSMarketing\MLSMarketing\bin\Debug\MLSMarketing.exe.config
+C:\SVN\Projetos.Net\MLSMarketing\MLSMarketing\bin\Debug\MLSMarketing.exe.manifest
+C:\SVN\Projetos.Net\MLSMarketing\MLSMarketing\bin\Debug\MLSMarketing.application
+C:\SVN\Projetos.Net\MLSMarketing\MLSMarketing\bin\Debug\MLSMarketing.exe
+C:\SVN\Projetos.Net\MLSMarketing\MLSMarketing\bin\Debug\MLSMarketing.pdb
+C:\SVN\Projetos.Net\MLSMarketing\MLSMarketing\obj\Debug\MLSMarketing.exe.manifest
+C:\SVN\Projetos.Net\MLSMarketing\MLSMarketing\obj\Debug\MLSMarketing.application
+C:\SVN\Projetos.Net\MLSMarketing\MLSMarketing\obj\Debug\MLSMarketing.exe
+C:\SVN\Projetos.Net\MLSMarketing\MLSMarketing\obj\Debug\MLSMarketing.pdb
+C:\SVN\Projetos.Net\MLSMarketing\MLSMarketing\bin\Debug\HtmlAgilityPack.dll
+C:\SVN\Projetos.Net\MLSMarketing\MLSMarketing\bin\Debug\HtmlAgilityPack.pdb
+C:\SVN\Projetos.Net\MLSMarketing\MLSMarketing\bin\Debug\HtmlAgilityPack.xml
+C:\SVN\Projetos.Net\MLSMarketing\MLSMarketing\obj\Debug\MLSMarketing.csproj.CopyComplete
+C:\SVN\Projetos.Net\MLSMarketing\MLSMarketing\obj\Debug\MLSMarketing.csprojAssemblyReference.cache

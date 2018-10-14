@@ -1,0 +1,942 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <appSettings>
+    <add key="Versao" value="Versão 1.0" />
+    <add key="IdProcomp" value="1066" />
+    <add key="IdUsuario" value="5" />
+    <add key="MinutosIntervalo" value="1440" />
+
+    <!--<add key="UriPorta" value="https://www.portadafrente.com/pt_PT/shop/advanced_search/page/2?buttonpesquisar=&amp;selectnegocio=&amp;referencia=&amp;tipologiaate=T23&amp;precode=0&amp;precoate=100000000&amp;selectnatureza=&amp;tipologiade=T0&amp;selectconcelho=LISBOA&amp;selectconcelho=LOURES" />-->
+    <add key="UriImovirt" value="https://www.imovirtual.com/comprar/lisboa/?search%5Bdescription%5D=1&amp;search%5Bprivate_business%5D=private&amp;search%5Bsubregion_id%5D=153" />
+    <add key="UriImovirtL" value="https://www.imovirtual.com/comprar/loures/?search%5Bdescription%5D=1&amp;search%5Bprivate_business%5D=private&amp;search%5Bsubregion_id%5D=153" />
+    <add key="UriCentury" value="https://www.century21global.com/pt/residencial-a-venda/Portugal/Lisbon?pageNo=1" />
+    <add key="UriCjustoAp" value="https://www.custojusto.pt/lisboa/apartamentos-venda?f=p&amp;o=1&amp;st=s" />
+    <add key="UriCjustoMo" value="https://www.custojusto.pt/lisboa/moradias-venda?f=p&amp;o=1&amp;st=s" />
+    <add key="UriEra" value="https://www.era.pt/imoveis/default.aspx?pg=1&amp;o=1&amp;t=&amp;a=&amp;dd=11&amp;cc=06&amp;ff=&amp;z=&amp;cp=&amp;nq=0&amp;p=&amp;ar=&amp;ca=00000000&amp;ct=0000&amp;or=41&amp;idioma=pt" />
+    <add key="UriEraLou" value="https://www.era.pt/imoveis/default.aspx?pg=1&amp;o=1&amp;t=&amp;a=&amp;dd=11&amp;cc=07&amp;ff=&amp;z=&amp;cp=&amp;nq=0&amp;p=&amp;ar=&amp;ca=00000000&amp;ct=0000&amp;or=41&amp;idioma=pt" />
+    <add key="UriKw" value="https://www.kwportugal.pt/pt/comprar?negocio=1&amp;tipoImovel=&amp;quartosImovel=&amp;fltPrecoDeImovel=&amp;fltPrecoAteImovel=&amp;localizacaoImovel%5B%5D=11&amp;localizacaoImovel%5B%5D=11_148&amp;localizacaoImovel%5B%5D=11_149&amp;order=&amp;modeView=&amp;fltConsultor=&amp;fltMC=&amp;fltMCZona=&amp;page=1" />
+    <add key="UriSapo" value="https://casa.sapo.pt/Venda/Apartamentos~Moradias~Terrenos/Lisboa~Loures/?sa=11&amp;pn=1" />
+    <add key="UriIdealistaL" value="https://www.idealista.pt/comprar-casas/loures/loures/pagina-1" />
+    <add key="UriIdealista" value="https://www.idealista.pt/comprar-casas/lisboa/pagina-1" />
+    <!--<add key="UriKwN" value="https://www.kwportugal.pt/pt/comprar/distImovel=11&amp;concImovel%5B%5D=148&amp;concImovel%5B%5D=149&amp;negocio=1&amp;condImovel=&amp;tipo=2&amp;tipoImovel=NQ%3D%3D&amp;fltPrecoDeImovel=&amp;fltPrecoAteImovel=&amp;fltAreaMin=&amp;order=&amp;modeView=&amp;fltConsultor=&amp;fltMC=&amp;fltMCZona=&amp;view=2" />-->
+    <add key="UriCasa10" value="http://casa10.pt/imoveis/?orc=6&amp;twn=153&amp;dst=11&amp;pss=BasicPropertySearchFormLimit11U12" />
+    <add key="UriSotheby" value="http://www.sothebysrealtypt.com/imoveis/default.aspx?pg=1&amp;hash=2d9d851c-a83d-4fbb-9d29-3d58de40d4f3&amp;idioma=pt" />
+    <add key="UriIad" value="https://www.iadportugal.pt/pesquisa/anuuncio?surface_min=&amp;surface_max=&amp;price_min=&amp;price_max=&amp;id=&amp;tags_list=%5B%7B%22type%22%3A%22departments%22%2C%22value%22%3A%22Lisboa%22%2C%22name%22%3A%22Lisboa%20%22%7D%5D&amp;transaction_type=Vente&amp;frequency=Journali%C3%A8re&amp;departments=Lisboa&amp;sort=ad.firstPublishDate&amp;dir=desc" />
+    <add key="UriLux" value="https://www.luxnlust.com/pt/search-advanced/page/1/pp/8/?c=1526117493446" />
+    <add key="UriEvolk" value="https://www.engelvoelkers.com/pt/search/?startIndex=0&amp;businessArea=residential&amp;sortField=sortPrice&amp;q=&amp;sortOrder=DESC&amp;facets=bsnssr%3Aresidential%3Bcntry%3Aportugal%3Brgn%3Alisbon%3Btyp%3Abuy%3B&amp;pageSize=18" />
+    <add key="UriMclass" value="http://markiclass.com/imoveis/?dst=11&amp;bus=1&amp;pss=Markiclass_SearchFormAdvanced" />
+    <add key="UriCasa10Lou" value="http://casa10.pt/imoveis/?orc=6&amp;twn=154&amp;dst=11&amp;pss=BasicPropertySearchFormLimit11U12" />
+    <add key="UriRioMag" value="http://riomagicdeluxe.com/imoveis/?orc=6&amp;twn=153&amp;dst=11&amp;pss=BasicPropertySearchFormLimit11U12" />
+    <add key="UriRioMagLou" value="http://riomagicdeluxe.com/imoveis/?orc=6&amp;twn=154&amp;dst=11&amp;pss=BasicPropertySearchFormLimit11U12" />
+    <add key="UriMont" value="http://montrigues.net/imoveis/?orc=6&amp;twn=153&amp;dst=11&amp;pss=BasicPropertySearchFormLimit11U12" />
+    <add key="UriMais" value="https://www.maisconsultores.pt/properties?s=d0999" />
+
+    <add key="IdImobKw" value="3" />
+    <add key="PesqLinkInitKw" value="&lt;a href=&quot;" />
+    <add key="PesqLinkFinalKw" value="&quot;&gt; &lt;div class=&quot;modulo_in&quot;&gt;" />
+
+    <add key="DetIdInitKw" value="ID &lt;strong&gt;" />
+    <add key="DetIdFinalKw" value="&lt;/strong&gt;&lt;/span&gt;" />
+    <add key="DetImagemDetalheInitKw" value="&lt;li&gt;&lt;img data-src=&quot;" />
+    <add key="DetImagemDetalheFinalKw" value="&quot;" />
+    <add key="DetDescricaoInitKw" value="&lt;div class=&quot;tab s_desc sombra&quot;&gt; &lt;div class=&quot;txt&quot;&gt;" />
+    <add key="DetDescricaoFinalKw" value="&lt;/div&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt;" />
+    <add key="DetCondicaoInitKw" value="CONDIÇÃO: &lt;strong class=&quot;text-uppercase&quot;&gt;" />
+    <add key="DetCondicaoFinalKw" value="&lt;/strong&gt;" />
+    <add key="DetTipoInitKw" value="&lt;h2 class=&quot;leve&quot;&gt;&lt;strong&gt;" />
+    <add key="DetTipoFinalKw" value="&lt;/strong&gt;" />
+    <add key="DetValorInitKw" value="s_preco&quot;&gt;&lt;strong&gt;" />
+    <add key="DetValorFinalKw" value="&lt;/strong&gt;" />
+    <add key="DetQuartosInitKw" value="si-cama&quot;&gt;&lt;/i&gt;&lt;span&gt;" />
+    <add key="DetQuartosFinalKw" value="&amp;nbsp;Quarto" />
+    
+    <add key="DetSuitesInitKw" value="si-cama&quot;&gt;&lt;/i&gt;&lt;span&gt;" />
+    <add key="DetSuitesFinalKw" value="&amp;nbsp;Suite" />
+    <add key="DetAssoalhadosInitKw" value="nothing" />
+    <add key="DetAssoalhadosFinalKw" value="nothing" />
+    
+    <add key="DetBanhoInitKw" value="si-wc&quot;&gt;&lt;/i&gt;&lt;span&gt;" />
+    <add key="DetBanhoFinalKw" value="&amp;nbsp;WC" />
+    <add key="DetGaragemInitKw" value="si-parqueamento&quot;&gt;&lt;/i&gt;&lt;span&gt;" />
+    <add key="DetGaragemFinalKw" value="&amp;nbsp;Lugar" />
+    <add key="DetTituloInitKw" value="&lt;title class=&quot;notranslate&quot;&gt;" />
+    <add key="DetTituloFinalKw" value="&lt;/title&gt;" />
+    <add key="DetAreaInitKw" value="ÚTIL: &lt;strong&gt;" />
+    <add key="DetAreaFinalKw" value="m&lt;sup&gt;2" />
+    <add key="DetAreaBInitKw" value="BRUTA: &lt;strong&gt;" />
+    <add key="DetAreaBFinalKw" value="m&lt;sup&gt;2" />
+    <add key="DetConcelhoInitKw" value="&lt;i class=&quot;si-gps light&quot;&gt;&lt;/i&gt;" />
+    <add key="DetConcelhoFinalKw" value="&lt;/h3&gt;" />
+    
+    <add key="DetTelefoneInitKw" value="nothing" />
+    <add key="DetTelefoneFinalKw" value="nothing" />
+    <add key="DetNomeInitKw" value="c_consul_nome&quot;&gt;" />
+    <add key="DetNomeFinalKw" value="&lt;/h3&gt;" />
+
+
+    <add key="IdImobKwN" value="3" />
+    <add key="PesqLinkInitKwN" value="&lt;a href=&quot;" />
+    <add key="PesqLinkFinalKwN" value="&quot;&gt; &lt;div class=&quot;modulo_in&quot;&gt;" />
+
+    <add key="DetIdInitKwN" value="ID &lt;strong&gt;" />
+    <add key="DetIdFinalKwN" value="&lt;/strong&gt;&lt;/span&gt;" />
+    <add key="DetImagemDetalheInitKwN" value="&lt;li&gt;&lt;img data-src=&quot;" />
+    <add key="DetImagemDetalheFinalKwN" value="&quot; class=&quot;lazy&quot; /&gt;&lt;/li&gt;" />
+    <add key="DetDescricaoInitKwN" value="&lt;div class=&quot;tab s_desc sombra&quot;&gt; &lt;div class=&quot;txt&quot;&gt;" />
+    <add key="DetDescricaoFinalKwN" value="&lt;/div&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt;" />
+    <add key="DetCondicaoInitKwN" value="CONDIÇÃO: &lt;strong class=&quot;text-uppercase&quot;&gt;" />
+    <add key="DetCondicaoFinalKwN" value="&lt;/strong&gt;" />
+    <add key="DetTipoInitKwN" value="&lt;h2 class=&quot;leve&quot;&gt;&lt;strong&gt;" />
+    <add key="DetTipoFinalKwN" value="&lt;/strong&gt;" />
+    <add key="DetValorInitKwN" value="&lt;span class=&quot;s_preco&quot;&gt; &lt;strong&gt;" />
+    <add key="DetValorFinalKwN" value="&lt;/strong&gt;" />
+    <add key="DetQuartosInitKwN" value="si-cama&quot;&gt;&lt;/i&gt;&lt;span&gt;" />
+    <add key="DetQuartosFinalKwN" value="&amp;nbsp;Quarto" />
+    <add key="DetSuitesInitKwN" value="si-cama&quot;&gt;&lt;/i&gt;&lt;span&gt;" />
+    <add key="DetSuitesFinalKwN" value="&amp;nbsp;Suite" />
+    <add key="DetAssoalhadosInitKwN" value="nothing" />
+    <add key="DetAssoalhadosFinalKwN" value="nothing" />
+    <add key="DetBanhoInitKwN" value="si-wc&quot;&gt;&lt;/i&gt;&lt;span&gt;" />
+    <add key="DetBanhoFinalKwN" value="&amp;nbsp;WC" />
+    <add key="DetGaragemInitKwN" value="si-parqueamento&quot;&gt;&lt;/i&gt;&lt;span&gt;" />
+    <add key="DetGaragemFinalKwN" value="&amp;nbsp;Lugar" />
+    <add key="DetTituloInitKwN" value="&lt;title&gt;" />
+    <add key="DetTituloFinalKwN" value="&lt;/title&gt;" />
+    <add key="DetAreaInitKwN" value="ÚTIL: &lt;strong&gt;" />
+    <add key="DetAreaFinalKwN" value="m&lt;sup&gt;2" />
+    <add key="DetAreaBInitKwN" value="BRUTA: &lt;strong&gt;" />
+    <add key="DetAreaBFinalKwN" value="m&lt;sup&gt;2" />
+    <add key="DetConcelhoInitKwN" value="&lt;i class=&quot;si-gps light&quot;&gt;&lt;/i&gt;" />
+    <add key="DetConcelhoFinalKwN" value="&lt;/h3&gt;" />
+
+    
+    
+    <!--return value.Replace("&", "&amp;").Replace("<", "&lt;").Replace(">", "&gt;").Replace("\"", "&quot;").Replace("'", "&apos;");-->
+    <add key="IdImobEra" value="5" />
+    <add key="CurrentPagInitEra" value="&lt;span class=&quot;current&quot;&gt;" />
+    <add key="CurrentPagFinalEra" value="&lt;/span&gt;" />
+    <add key="PesqLinkInitEra" value="img_imovel&quot; href=&quot;" />
+    <add key="PesqLinkFinalEra" value="&quot;&gt;&lt;img id=&quot;" />
+
+    <add key="DetIdInitEra" value="REF:" />
+    <add key="DetIdFinalEra" value="&lt;/span&gt;" />
+    <add key="DetImagemDetalheInitEra" value="imagem&quot; data-big=&quot;" />
+    <add key="DetImagemDetalheFinalEra" value="&quot; src=&quot;" />
+    <add key="DetDescricaoInitEra" value="style=&quot;margin-bottom: 40px;&quot;&gt;" />
+    <add key="DetDescricaoFinalEra" value="&lt;/div&gt;" />
+    <add key="DetCondicaoInitEra" value="nothing" />
+    <add key="DetCondicaoFinalEra" value="nothing" />
+    <add key="DetTipoInitEra" value="tipo_imovel&quot;&gt;" />
+    <add key="DetTipoFinalEra" value="&lt;/span&gt;" />
+    <add key="DetValorInitEra" value="show_preco_venda&quot;&gt;" />
+    <add key="DetValorFinalEra" value="€&lt;/span&gt;" />
+    <add key="DetQuartosInitEra" value="Quartos'&gt;&amp;nbsp;&lt;/span&gt;&lt;span class='num'&gt;" />
+    <add key="DetQuartosFinalEra" value="&lt;/span&gt;" />
+    <add key="DetBanhoInitEra" value="Banho'&gt;&amp;nbsp;&lt;/span&gt;&lt;span class='num'&gt;" />
+    <add key="DetBanhoFinalEra" value="&lt;/span&gt;" />
+    <add key="DetGaragemInitEra" value="Estacionamento'&gt;&amp;nbsp;&lt;/span&gt;&lt;span class='num'&gt;" />
+    <add key="DetGaragemFinalEra" value="&lt;/span&gt;" />
+    <add key="DetTituloInitEra" value="&lt;title&gt;" />
+    <add key="DetTituloFinalEra" value="&lt;/title&gt;" />
+    <add key="DetAreaInitEra" value="title='Área util'&gt;&amp;nbsp;&lt;/span&gt;&lt;span class='num'&gt;" />
+    <add key="DetAreaFinalEra" value="&lt;/span&gt;" />
+    <add key="DetAreaBInitEra" value="title='Área bruta'&gt;&amp;nbsp;&lt;/span&gt;&lt;span class='num'&gt;" />
+    <add key="DetAreaBFinalEra" value="&lt;/span&gt;" />
+    <add key="DetConcelhoInitEra" value="imovel_show_freguesia&quot;&gt;" />
+    <add key="DetConcelhoFinalEra" value="&lt;/span&gt;" />
+    <add key="DetTelefoneInitEra" value="LIGUE " />
+    <add key="DetTelefoneFinalEra" value="&lt;/a&gt;" />
+    <add key="DetNomeInitEra" value="descricao_contacto&quot; class=&quot;lbl_descricao&quot;&gt;&lt;b&gt;" />
+    <add key="DetNomeFinalEra" value="&lt;/b&gt;" />
+
+
+    <!--return value.Replace("&", "&amp;").Replace("<", "&lt;").Replace(">", "&gt;").Replace("\"", "&quot;").Replace("'", "&apos;");-->
+    <add key="IdImobEraLou" value="5" />
+    <add key="CurrentPagInitEraLou" value="&lt;span class=&quot;current&quot;&gt;" />
+    <add key="CurrentPagFinalEraLou" value="&lt;/span&gt;" />
+    <add key="PesqLinkInitEraLou" value="img_imovel&quot; href=&quot;" />
+    <add key="PesqLinkFinalEraLou" value="&quot;&gt;&lt;img id=&quot;" />
+
+    <add key="DetIdInitEraLou" value="REF:" />
+    <add key="DetIdFinalEraLou" value="&lt;/span&gt;" />
+    <add key="DetImagemDetalheInitEraLou" value="imagem&quot; data-big=&quot;" />
+    <add key="DetImagemDetalheFinalEraLou" value="&quot; src=&quot;" />
+    <add key="DetDescricaoInitEraLou" value="style=&quot;margin-bottom: 40px;&quot;&gt;" />
+    <add key="DetDescricaoFinalEraLou" value="&lt;/div&gt;" />
+    <add key="DetCondicaoInitEraLou" value="nothing" />
+    <add key="DetCondicaoFinalEraLou" value="nothing" />
+    <add key="DetTipoInitEraLou" value="tipo_imovel&quot;&gt;" />
+    <add key="DetTipoFinalEraLou" value="&lt;/span&gt;" />
+    <add key="DetValorInitEraLou" value="show_preco_venda&quot;&gt;" />
+    <add key="DetValorFinalEraLou" value="€&lt;/span&gt;" />
+    <add key="DetQuartosInitEraLou" value="Quartos'&gt;&amp;nbsp;&lt;/span&gt;&lt;span class='num'&gt;" />
+    <add key="DetQuartosFinalEraLou" value="&lt;/span&gt;" />
+    <add key="DetBanhoInitEraLou" value="Banho'&gt;&amp;nbsp;&lt;/span&gt;&lt;span class='num'&gt;" />
+    <add key="DetBanhoFinalEraLou" value="&lt;/span&gt;" />
+    <add key="DetGaragemInitEraLou" value="Estacionamento'&gt;&amp;nbsp;&lt;/span&gt;&lt;span class='num'&gt;" />
+    <add key="DetGaragemFinalEraLou" value="&lt;/span&gt;" />
+    <add key="DetTituloInitEraLou" value="&lt;title&gt;" />
+    <add key="DetTituloFinalEraLou" value="&lt;/title&gt;" />
+    <add key="DetAreaInitEraLou" value="title='Área util'&gt;&amp;nbsp;&lt;/span&gt;&lt;span class='num'&gt;" />
+    <add key="DetAreaFinalEraLou" value="&lt;/span&gt;" />
+    <add key="DetAreaBInitEraLou" value="title='Área bruta'&gt;&amp;nbsp;&lt;/span&gt;&lt;span class='num'&gt;" />
+    <add key="DetAreaBFinalEraLou" value="&lt;/span&gt;" />
+    <add key="DetConcelhoInitEraLou" value="imovel_show_freguesia&quot;&gt;" />
+    <add key="DetConcelhoFinalEraLou" value="&lt;/span&gt;" />
+    <add key="DetTelefoneInitEraLou" value="LIGUE " />
+    <add key="DetTelefoneFinalEraLou" value="&lt;/a&gt;" />
+    <add key="DetNomeInitEraLou" value="descricao_contacto&quot; class=&quot;lbl_descricao&quot;&gt;&lt;b&gt;" />
+    <add key="DetNomeFinalEraLou" value="&lt;/b&gt;" />
+
+
+
+    <!--return value.Replace("&", "&amp;").Replace("<", "&lt;").Replace(">", "&gt;").Replace("\"nothing", "&quot;").Replace("'", "&apos;");-->
+    <add key="IdImobCasa10" value="8" />
+    <add key="PesqLinkInitCasa10" value="&lt;div class=&quot;secretMargin&quot;&gt;
+						&lt;a href=&quot;" />
+    <add key="PesqLinkFinalCasa10" value="&quot; title=&quot;" />
+
+    <add key="DetIdInitCasa10" value="Referência:&lt;/span&gt;&lt;span class=&quot;value&quot;&gt;" />
+    <add key="DetIdFinalCasa10" value="&lt;/span&gt;" />
+    <add key="DetImagemDetalheInitCasa10" value="&lt;img class=&quot;thumbnail&quot; src=&quot;" />
+    <add key="DetImagemDetalheFinalCasa10" value="&quot; title=&quot;" />
+    <add key="DetDescricaoInitCasa10" value="description&quot;  content=&quot;" />
+    <add key="DetDescricaoFinalCasa10" value="&quot;/&gt;" />
+    <add key="DetCondicaoInitCasa10" value="Área útil:999&lt;/span&gt;&lt;span class=&quot;value&quot;&gt;" />
+    <add key="DetCondicaoFinalCasa10" value="&lt;/span&gt;" />
+    <add key="DetTipoInitCasa10" value="Natureza:&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;value&quot;&gt;" />
+    <add key="DetTipoFinalCasa10" value="&lt;/span&gt;" />
+    <add key="DetValorInitCasa10" value="Venda&lt;/span&gt;&amp;nbsp;&lt;span class=&quot;value&quot;&gt;" />
+    <add key="DetValorFinalCasa10" value="&amp;nbsp;€" />
+    <add key="DetQuartosInitCasa10" value="Tipologia:&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;value&quot;&gt;" />
+    <add key="DetQuartosFinalCasa10" value="&lt;/span&gt;" />
+    <add key="DetBanhoInitCasa10" value="Casa(s) de Banho" />
+    <add key="DetBanhoFinalCasa10" value="&lt;/li&gt;" />
+    <add key="DetGaragemInitCasa10" value="nothing" />
+    <add key="DetGaragemFinalCasa10" value="nothing" />
+    <add key="DetTituloInitCasa10" value="&lt;title&gt;" />
+    <add key="DetTituloFinalCasa10" value="&lt;/title&gt;" />
+    <add key="DetAreaInitCasa10" value="Área útil:&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;value&quot;&gt;" />
+    <add key="DetAreaFinalCasa10" value="m&amp;sup2;" />
+    <add key="DetAreaBInitCasa10" value="Área Bruta:&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;value&quot;&gt;" />
+    <add key="DetAreaBFinalCasa10" value="m&amp;sup2;" />
+    <add key="DetConcelhoInitCasa10" value="Freguesia:&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;value&quot;&gt;" />
+    <add key="DetConcelhoFinalCasa10" value="&lt;/span&gt;" />
+
+    <!--return value.Replace("&", "&amp;").Replace("<", "&lt;").Replace(">", "&gt;").Replace("\"nothing", "&quot;").Replace("'", "&apos;");-->
+    <add key="IdImobCasa10Lou" value="8" />
+    <add key="PesqLinkInitCasa10Lou" value="&lt;div class=&quot;secretMargin&quot;&gt;
+						&lt;a href=&quot;" />
+    <add key="PesqLinkFinalCasa10Lou" value="&quot; title=&quot;" />
+
+    <add key="DetIdInitCasa10Lou" value="Referência:&lt;/span&gt;&lt;span class=&quot;value&quot;&gt;" />
+    <add key="DetIdFinalCasa10Lou" value="&lt;/span&gt;" />
+    <add key="DetImagemDetalheInitCasa10Lou" value="&lt;img class=&quot;thumbnail&quot; src=&quot;" />
+    <add key="DetImagemDetalheFinalCasa10Lou" value="&quot; title=&quot;" />
+    <add key="DetDescricaoInitCasa10Lou" value="description&quot;  content=&quot;" />
+    <add key="DetDescricaoFinalCasa10Lou" value="&quot;/&gt;" />
+    <add key="DetCondicaoInitCasa10Lou" value="Área útil:999&lt;/span&gt;&lt;span class=&quot;value&quot;&gt;" />
+    <add key="DetCondicaoFinalCasa10Lou" value="&lt;/span&gt;" />
+    <add key="DetTipoInitCasa10Lou" value="Natureza:&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;value&quot;&gt;" />
+    <add key="DetTipoFinalCasa10Lou" value="&lt;/span&gt;" />
+    <add key="DetValorInitCasa10Lou" value="Venda&lt;/span&gt;&amp;nbsp;&lt;span class=&quot;value&quot;&gt;" />
+    <add key="DetValorFinalCasa10Lou" value="&amp;nbsp;€" />
+    <add key="DetQuartosInitCasa10Lou" value="Tipologia:&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;value&quot;&gt;" />
+    <add key="DetQuartosFinalCasa10Lou" value="&lt;/span&gt;" />
+    <add key="DetBanhoInitCasa10Lou" value="Casa(s) de Banho" />
+    <add key="DetBanhoFinalCasa10Lou" value="&lt;/li&gt;" />
+    <add key="DetGaragemInitCasa10Lou" value="nothing" />
+    <add key="DetGaragemFinalCasa10Lou" value="nothing" />
+    <add key="DetTituloInitCasa10Lou" value="&lt;title&gt;" />
+    <add key="DetTituloFinalCasa10Lou" value="&lt;/title&gt;" />
+    <add key="DetAreaInitCasa10Lou" value="Área útil:&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;value&quot;&gt;" />
+    <add key="DetAreaFinalCasa10Lou" value="m&amp;sup2;" />
+    <add key="DetAreaBInitCasa10Lou" value="Área Bruta:&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;value&quot;&gt;" />
+    <add key="DetAreaBFinalCasa10Lou" value="m&amp;sup2;" />
+    <add key="DetConcelhoInitCasa10Lou" value="Freguesia:&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;value&quot;&gt;" />
+    <add key="DetConcelhoFinalCasa10Lou" value="&lt;/span&gt;" />
+
+
+    <!--return value.Replace("&", "&amp;").Replace("<", "&lt;").Replace(">", "&gt;").Replace("\"nothing", "&quot;").Replace("'", "&apos;");-->
+    <add key="IdImobEvolk" value="9" />
+    <add key="PesqLinkInitEvolk" value="&quot;ev-property-container&quot; href=&quot;" />
+    <add key="PesqLinkFinalEvolk" value="&quot;&gt;" />
+
+    <add key="DetIdInitEvolk" value="E&amp;V ID&lt;/label&gt; &lt;span class=&quot;ev-exposee-detail-fact-value&quot;&gt;" />
+    <add key="DetIdFinalEvolk" value="&lt;/span&gt;" />
+    <add key="DetImagemDetalheInitEvolk" value="image-link &quot; href=&quot;" />
+    <add key="DetImagemDetalheFinalEvolk" value="&quot; data-lightbox=&quot;" />
+    <add key="DetDescricaoInitEvolk" value="&lt;p class=&quot;ev-exposee-text&quot; itemprop=&quot;description&quot;&gt;" />
+    <add key="DetDescricaoFinalEvolk" value="&lt;/p&gt; &lt;/div&gt;" />
+    <add key="DetCondicaoInitEvolk" value="nothing" />
+    <add key="DetCondicaoFinalEvolk" value="nothing" />
+    <add key="DetTipoInitEvolk" value="Subtipo de imóvel&lt;/label&gt; &lt;span class=&quot;ev-exposee-detail-fact-value&quot;&gt;" />
+    <add key="DetTipoFinalEvolk" value="&lt;/span&gt;" />
+    <add key="DetValorInitEvolk" value="&quot;price&quot; content=&quot;" />
+    <add key="DetValorFinalEvolk" value="&quot;&gt;" />
+    <add key="DetQuartosInitEvolk" value="Quartos-Icon&quot;&gt; &lt;div class=&quot;ev-key-fact-value&quot;&gt;" />
+    <add key="DetQuartosFinalEvolk" value="&lt;/div&gt;" />
+    <add key="DetBanhoInitEvolk" value="banho-Icon&quot;&gt; &lt;div class=&quot;ev-key-fact-value&quot;&gt;" />
+    <add key="DetBanhoFinalEvolk" value="&lt;/div&gt;" />
+    <add key="DetGaragemInitEvolk" value="nothing" />
+    <add key="DetGaragemFinalEvolk" value="nothing" />
+    <add key="DetTituloInitEvolk" value="&lt;title&gt;" />
+    <add key="DetTituloFinalEvolk" value="&lt;/title&gt;" />
+    <add key="DetAreaInitEvolk" value="Área total&lt;/label&gt; &lt;span class=&quot;ev-exposee-detail-fact-value&quot;&gt;" />
+    <add key="DetAreaFinalEvolk" value="sqft" />
+    <add key="DetAreaBInitEvolk" value="Terreno-Icon&quot;&gt; &lt;div class=&quot;ev-key-fact-value&quot;&gt;" />
+    <add key="DetAreaBFinalEvolk" value="&lt;/div&gt;" />
+    <add key="DetConcelhoInitEvolk" value="&lt;div class=&quot;ev-exposee-content ev-exposee-subtitle&quot;&gt;" />
+    <add key="DetConcelhoFinalEvolk" value="&lt;/div&gt;" />
+
+
+    <!--return value.Replace("&", "&amp;").Replace("<", "&lt;").Replace(">", "&gt;").Replace("\"nothing", "&quot;").Replace("'", "&apos;");-->
+    <add key="CurrentPagInitMclass" value="&lt;a href=&quot;/imovel" />
+    <add key="CurrentPagFinalMclass" value="&quot; title=&quot;" />
+    <add key="IdImobMclass" value="10" />
+    <add key="PesqLinkInitMclass" value="&lt;a href=&quot;/imovel" />
+    <add key="PesqLinkFinalMclass" value="&quot; title=&quot;" />
+    <add key="PesqTituloInitMclass" value="nothing" />
+    <add key="PesqTituloFinalMclass" value="nothing" />
+
+    <add key="DetIdInitMclass" value="Referência:&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;value&quot;&gt;" />
+    <add key="DetIdFinalMclass" value="&lt;/span&gt;" />
+    <add key="DetImagemDetalheInitMclass" value="&lt;img class=&quot;thumbnail&quot; src=&quot;" />
+    <add key="DetImagemDetalheFinalMclass" value="&quot; title=&quot;" />
+    <add key="DetDescricaoInitMclass" value="&lt;div class=&quot;frame&quot;&gt;&lt;div class=&quot;text&quot;&gt;" />
+    <add key="DetDescricaoFinalMclass" value="&lt;/li&gt;" />
+    <add key="DetCondicaoInitMclass" value="Condomínio:&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;value &quot;&gt;" />
+    <add key="DetCondicaoFinalMclass" value="&lt;/span&gt;" />
+    <add key="DetTipoInitMclass" value="Natureza:&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;value&quot;&gt;" />
+    <add key="DetTipoFinalMclass" value="&lt;/span&gt;" />
+    <add key="DetValorInitMclass" value="Venda&lt;/span&gt;&amp;nbsp;&lt;span class=&quot;value&quot;&gt;" />
+    <add key="DetValorFinalMclass" value="&amp;nbsp;€" />
+    <add key="DetQuartosInitMclass" value="Tipologia:&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;value&quot;&gt;" />
+    <add key="DetQuartosFinalMclass" value="&lt;/span&gt;" />
+    <add key="DetBanhoInitMclass" value="Casa(s) de Banho" />
+    <add key="DetBanhoFinalMclass" value="&lt;/li&gt;" />
+    <add key="DetGaragemInitMclass" value="nothing" />
+    <add key="DetGaragemFinalMclass" value="nothing" />
+    <add key="DetTituloInitMclass" value="&lt;title&gt;" />
+    <add key="DetTituloFinalMclass" value="&lt;/title&gt;" />
+    <add key="DetAreaInitMclass" value="Área útil:&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;value&quot;&gt;" />
+    <add key="DetAreaFinalMclass" value="&lt;/span&gt;" />
+    <add key="DetAreaBInitMclass" value="Área Bruta:&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;value&quot;&gt;" />
+    <add key="DetAreaBFinalMclass" value="&lt;/span&gt;" />
+    <add key="DetConcelhoInitMclass" value="Freguesia:&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;value&quot;&gt;" />
+    <add key="DetConcelhoFinalMclass" value="&lt;/span&gt;" />
+
+    <!--return value.Replace("&", "&amp;").Replace("<", "&lt;").Replace(">", "&gt;").Replace("\"nothing", "&quot;").Replace("'", "&apos;");-->
+    <add key="IdImobMais" value="11" />
+    <add key="PesqLinkInitMais" value="&lt;a href=&quot;" />
+    <add key="PesqLinkFinalMais" value="&quot; class=&quot;info&quot;&gt;" />
+
+    <add key="DetIdInitMais" value="Ref: " />
+    <add key="DetIdFinalMais" value=" &lt;span" />
+    <add key="DetImagemDetalheInitMais" value="&lt;img data-src=&quot;" />
+    <add key="DetImagemDetalheFinalMais" value="&quot; alt=&quot;" />
+    <add key="DetDescricaoInitMais" value="							&lt;div role=&quot;tabpanel&quot; class=&quot;tab-pane active&quot; id=&quot;description&quot;&gt;
+								&lt;div class=&quot;panel-body&quot;&gt;" />
+    <add key="DetDescricaoFinalMais" value="								&lt;/div&gt;
+							&lt;/div&gt;
+
+							&lt;!-- Attributes --&gt;" />
+    <add key="DetCondicaoInitMais" value="nothing" />
+    <add key="DetCondicaoFinalMais" value="nothing" />
+    <add key="DetTipoInitMais" value="&lt;i class=&quot;icon-apartment&quot;&gt;&lt;/i&gt; " />
+    <add key="DetTipoFinalMais" value="&lt;/li&gt;" />
+    <add key="DetValorInitMais" value="Venda
+							&lt;span&gt;" />
+    <add key="DetValorFinalMais" value="€&lt;/span&gt;" />
+    <add key="DetQuartosInitMais" value="&lt;i class=&quot;icon-bedrooms&quot;&gt;&lt;/i&gt; " />
+    <add key="DetQuartosFinalMais" value="&lt;/li&gt;" />
+    <add key="DetBanhoInitMais" value="&lt;i class=&quot;icon-bathrooms&quot;&gt;&lt;/i&gt; " />
+    <add key="DetBanhoFinalMais" value="&lt;/li&gt;" />
+    <add key="DetGaragemInitMais" value="nothing" />
+    <add key="DetGaragemFinalMais" value="nothing" />
+    <add key="DetTituloInitMais" value="&lt;h1 class=&quot;property-title&quot;&gt;" />
+    <add key="DetTituloFinalMais" value="&lt;small&gt;" />
+    <add key="DetAreaInitMais" value="Área Útil:&lt;/strong&gt; " />
+    <add key="DetAreaFinalMais" value="&lt;/sup&gt;" />
+    <add key="DetAreaBInitMais" value="Área Bruta:&lt;/strong&gt; " />
+    <add key="DetAreaBFinalMais" value="&lt;/sup&gt;" />
+    <add key="DetConcelhoInitMais" value="fa fa-map-marker&quot;&gt;&lt;/i&gt; " />
+    <add key="DetConcelhoFinalMais" value="&lt;/small&gt;" />
+    
+
+    <!--return value.Replace("&", "&amp;").Replace("<", "&lt;").Replace(">", "&gt;").Replace("\"nothing", "&quot;").Replace("'", "&apos;");-->
+    <add key="IdImobMont" value="12" />
+    <add key="PesqLinkInitMont" value="&lt;a href=&quot;" />
+    <add key="PesqLinkFinalMont" value="&quot; title=&quot;" />
+
+    <add key="DetIdInitMont" value="Referência:&lt;/span&gt;&lt;span class=&quot;value&quot;&gt; " />
+    <add key="DetIdFinalMont" value="&lt;/span&gt;" />
+    <add key="DetImagemDetalheInitMont" value="&lt;img class=&quot;thumbnail&quot; src=&quot;" />
+    <add key="DetImagemDetalheFinalMont" value="&quot; title=&quot;" />
+    <add key="DetDescricaoInitMont" value="&lt;div class=&quot;text&quot;&gt;" />
+    <add key="DetDescricaoFinalMont" value="&lt;/div&gt;" />
+    <add key="DetCondicaoInitMont" value="nothing" />
+    <add key="DetCondicaoFinalMont" value="nothing" />
+    <add key="DetTipoInitMont" value="Natureza:&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;value&quot;&gt;" />
+    <add key="DetTipoFinalMont" value="&lt;/span&gt;" />
+    <add key="DetValorInitMont" value="Venda&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;value&quot;&gt;" />
+    <add key="DetValorFinalMont" value="&lt;/span&gt;" />
+    <add key="DetQuartosInitMont" value="Total quarto(s) " />
+    <add key="DetQuartosFinalMont" value="&lt;/li&gt;" />
+    <add key="DetBanhoInitMont" value="Casa(s) de Banho " />
+    <add key="DetBanhoFinalMont" value="&lt;/li&gt;" />
+    <add key="DetGaragemInitMont" value="Garagem:&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;value&quot;&gt;" />
+    <add key="DetGaragemFinalMont" value="&lt;/span&gt;" />
+    <add key="DetTituloInitMont" value="&lt;div class=&quot;text&quot;&gt;" />
+    <add key="DetTituloFinalMont" value="&lt;/div&gt;" />
+    <add key="DetAreaInitMont" value="Área útil:&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;value&quot;&gt;" />
+    <add key="DetAreaFinalMont" value="&lt;/span&gt;" />
+    <add key="DetAreaBInitMont" value="Área Bruta:&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;value&quot;&gt;" />
+    <add key="DetAreaBFinalMont" value="&lt;/span&gt;" />
+    <add key="DetConcelhoInitMont" value="Freguesia:&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;value&quot;&gt;" />
+    <add key="DetConcelhoFinalMont" value="&lt;/span&gt;" />
+
+    
+    <!--return value.Replace("&", "&amp;").Replace("<", "&lt;").Replace(">", "&gt;").Replace("\"nothing", "&quot;").Replace("'", "&apos;");-->
+    <add key="IdImobRioMag" value="1011" />
+    <add key="PesqLinkInitRioMag" value="&lt;a href=&quot;/imovel/" />
+    <add key="PesqLinkFinalRioMag" value="&quot; title=&quot;" />
+
+    <add key="DetIdInitRioMag" value="Referência:&lt;/span&gt;&lt;span class=&quot;value&quot;&gt; " />
+    <add key="DetIdFinalRioMag" value="&lt;/span&gt;" />
+    <add key="DetImagemDetalheInitRioMag" value="&lt;img class=&quot;thumbnail&quot; src=&quot;" />
+    <add key="DetImagemDetalheFinalRioMag" value="&quot; title=&quot;" />
+    <add key="DetDescricaoInitRioMag" value="&lt;div class=&quot;frame&quot;&gt;&lt;div class=&quot;text&quot;&gt;" />
+    <add key="DetDescricaoFinalRioMag" value="&lt;/div&gt;&lt;/div&gt;&lt;/li&gt;" />
+    <add key="DetCondicaoInitRioMag" value="nothing" />
+    <add key="DetCondicaoFinalRioMag" value="nothing" />
+    <add key="DetTipoInitRioMag" value="Natureza:&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;value&quot;&gt;" />
+    <add key="DetTipoFinalRioMag" value="&lt;/span&gt;" />
+    <add key="DetValorInitRioMag" value="Venda&lt;/span&gt;&amp;nbsp;&lt;span class=&quot;value&quot;&gt;" />
+    <add key="DetValorFinalRioMag" value="&amp;nbsp;€" />
+    <add key="DetQuartosInitRioMag" value="Total quarto(s)" />
+    <add key="DetQuartosFinalRioMag" value="&lt;/li&gt;" />
+    <add key="DetBanhoInitRioMag" value="Casa(s) de Banho" />
+    <add key="DetBanhoFinalRioMag" value="&lt;/li&gt;" />
+    <add key="DetGaragemInitRioMag" value="nothing" />
+    <add key="DetGaragemFinalRioMag" value="nothing" />
+    <add key="DetTituloInitRioMag" value="&lt;title&gt;" />
+    <add key="DetTituloFinalRioMag" value="&lt;/title&gt;" />
+    <add key="DetAreaInitRioMag" value="Área útil:&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;value&quot;&gt;" />
+    <add key="DetAreaFinalRioMag" value="&lt;/span&gt;" />
+    <add key="DetAreaBInitRioMag" value="Área Bruta:&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;value&quot;&gt;" />
+    <add key="DetAreaBFinalRioMag" value="&lt;/span&gt;" />
+    <add key="DetConcelhoInitRioMag" value="Freguesia:&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;value&quot;&gt;" />
+    <add key="DetConcelhoFinalRioMag" value="&lt;/span&gt;" />
+
+    
+    <!--return value.Replace("&", "&amp;").Replace("<", "&lt;").Replace(">", "&gt;").Replace("\"nothing", "&quot;").Replace("'", "&apos;");-->
+    <add key="IdImobRioMagLou" value="1011" />
+    <add key="PesqLinkInitRioMagLou" value="&lt;a href=&quot;/imovel/" />
+    <add key="PesqLinkFinalRioMagLou" value="&quot; title=&quot;" />
+
+    <add key="DetIdInitRioMagLou" value="Referência:&lt;/span&gt;&lt;span class=&quot;value&quot;&gt; " />
+    <add key="DetIdFinalRioMagLou" value="&lt;/span&gt;" />
+    <add key="DetImagemDetalheInitRioMagLou" value="&lt;img class=&quot;thumbnail&quot; src=&quot;" />
+    <add key="DetImagemDetalheFinalRioMagLou" value="&quot; title=&quot;" />
+    <add key="DetDescricaoInitRioMagLou" value="&lt;div class=&quot;frame&quot;&gt;&lt;div class=&quot;text&quot;&gt;" />
+    <add key="DetDescricaoFinalRioMagLou" value="&lt;/div&gt;&lt;/div&gt;&lt;/li&gt;" />
+    <add key="DetCondicaoInitRioMagLou" value="nothing" />
+    <add key="DetCondicaoFinalRioMagLou" value="nothing" />
+    <add key="DetTipoInitRioMagLou" value="Natureza:&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;value&quot;&gt;" />
+    <add key="DetTipoFinalRioMagLou" value="&lt;/span&gt;" />
+    <add key="DetValorInitRioMagLou" value="Venda&lt;/span&gt;&amp;nbsp;&lt;span class=&quot;value&quot;&gt;" />
+    <add key="DetValorFinalRioMagLou" value="&amp;nbsp;€" />
+    <add key="DetQuartosInitRioMagLou" value="Total quarto(s)" />
+    <add key="DetQuartosFinalRioMagLou" value="&lt;/li&gt;" />
+    <add key="DetBanhoInitRioMagLou" value="Casa(s) de Banho" />
+    <add key="DetBanhoFinalRioMagLou" value="&lt;/li&gt;" />
+    <add key="DetGaragemInitRioMagLou" value="nothing" />
+    <add key="DetGaragemFinalRioMagLou" value="nothing" />
+    <add key="DetTituloInitRioMagLou" value="&lt;title&gt;" />
+    <add key="DetTituloFinalRioMagLou" value="&lt;/title&gt;" />
+    <add key="DetAreaInitRioMagLou" value="Área útil:&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;value&quot;&gt;" />
+    <add key="DetAreaFinalRioMagLou" value="&lt;/span&gt;" />
+    <add key="DetAreaBInitRioMagLou" value="Área Bruta:&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;value&quot;&gt;" />
+    <add key="DetAreaBFinalRioMagLou" value="&lt;/span&gt;" />
+    <add key="DetConcelhoInitRioMagLou" value="Freguesia:&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;value&quot;&gt;" />
+    <add key="DetConcelhoFinalRioMagLou" value="&lt;/span&gt;" />
+    
+
+    <!--return value.Replace("&", "&amp;").Replace("<", "&lt;").Replace(">", "&gt;").Replace("\"nothing", "&quot;").Replace("'", "&apos;");-->
+    <add key="IdImobLux" value="1012" />
+    <add key="PesqLinkInitLux" value="&lt;a href=&quot;https://www.luxnlust.com/pt/property/" />
+    <add key="PesqLinkFinalLux" value="&quot; class=&quot;" />
+
+    <add key="DetIdInitLux" value="Ref. " />
+    <add key="DetIdFinalLux" value=" /" />
+    <add key="DetImagemDetalheInitLux" value="src=&quot;https://www.luxnlust.com/wp-content/uploads" />
+    <add key="DetImagemDetalheFinalLux" value="&quot; class=&quot;" />
+    <add key="DetDescricaoInitLux" value="&lt;div class=&quot;description_title&quot;&gt;" />
+    <add key="DetDescricaoFinalLux" value="&lt;div class=&quot;icons-group-after " />
+    <add key="DetCondicaoInitLux" value="nothing" />
+    <add key="DetCondicaoFinalLux" value="nothing" />
+    <add key="DetTipoInitLux" value="&lt;title&gt;" />
+    <add key="DetTipoFinalLux" value=": Lux" />
+    <add key="DetValorInitLux" value="col_md_4 offr_md_0&quot;&gt;" />
+    <add key="DetValorFinalLux" value="€" />
+    <add key="DetQuartosInitLux" value="&lt;span&gt;Quartos&lt;/span&gt;
+							&lt;/div&gt;
+							" />
+    <add key="DetQuartosFinalLux" value="						&lt;/div&gt;" />
+    <add key="DetBanhoInitLux" value="&lt;span&gt;C. banho&lt;/span&gt;
+							&lt;/div&gt;
+							" />
+    <add key="DetBanhoFinalLux" value="						&lt;/div&gt;" />
+    <add key="DetGaragemInitLux" value="nothing" />
+    <add key="DetGaragemFinalLux" value="nothing" />
+    <add key="DetTituloInitLux" value="&lt;title&gt;" />
+    <add key="DetTituloFinalLux" value=": Lux" />
+    <add key="DetAreaInitLux" value="&lt;span&gt;Área útil&lt;/span&gt;
+							&lt;/div&gt;
+							" />
+    <add key="DetAreaFinalLux" value="						&lt;/div&gt;" />
+    <add key="DetAreaBInitLux" value="&lt;span&gt;Área total&lt;/span&gt;
+							&lt;/div&gt;
+							" />
+    <add key="DetAreaBFinalLux" value="						&lt;/div&gt;" />
+    <add key="DetConcelhoInitLux" value="Ref. " />
+    <add key="DetConcelhoFinalLux" value="," />
+    
+    
+    <add key="IdImobPorta" value="1013" />
+    <add key="PesqLinkInitPorta" value="&lt;a itemprop=&quot;url&quot; href=&quot;" />
+    <add key="PesqLinkFinalPorta" value="&quot;&gt;" />
+
+    <add key="DetIdInitPorta" value="Referência:" />
+    <add key="DetIdFinalPorta" value="&lt;/span&gt;" />
+    <add key="DetImagemDetalheInitPorta" value="&lt;img src=&quot;https://static" />
+    <add key="DetImagemDetalheFinalPorta" value="&quot; alt=&quot;" />
+    <add key="DetDescricaoInitPorta" value="&lt;meta name=&quot;description&quot; content=&quot;" />
+    <add key="DetDescricaoFinalPorta" value="&quot;/&gt;" />
+    <add key="DetCondicaoInitPorta" value="CONDIÇÃO: &lt;strong class=&quot;text-uppercase&quot;&gt;" />
+    <add key="DetCondicaoFinalPorta" value="&lt;/strong&gt;" />
+    <add key="DetTipoInitPorta" value="nothing" />
+    <add key="DetTipoFinalPorta" value="nothing" />
+    <add key="DetValorInitPorta" value="&lt;h3 style=&quot;color:#660224&quot;&gt;" />
+    <add key="DetValorFinalPorta" value="€" />
+    <add key="DetQuartosInitPorta" value="Quartos: 
+                                                    &lt;span class=&quot;caracteristicas-principais-valor&quot;&gt;" />
+    <add key="DetQuartosFinalPorta" value="&lt;/span&gt;" />
+    <add key="DetSuitesInitPorta" value="Suites:
+                                                &lt;span&gt;" />
+    <add key="DetSuitesFinalPorta" value="&lt;/span&gt;" />
+    <add key="DetBanhoInitPorta" value="Casas de Banho:
+                                                
+                                                
+                                                &lt;span&gt;" />
+    <add key="DetBanhoFinalPorta" value="&lt;/span&gt;" />
+    <add key="DetGaragemInitPorta" value="Estacionamento:
+                                                    
+                                                    
+                                                    &lt;span&gt;" />
+    <add key="DetGaragemFinalPorta" value="&lt;/span&gt;" />
+    <add key="DetTituloInitPorta" value="&lt;title&gt;" />
+    <add key="DetTituloFinalPorta" value="&lt;/title&gt;" />
+    <add key="DetAreaInitPorta" value="Área Bruta Privativa: 
+                                                    &lt;span class=&quot;caracteristicas-principais-valor&quot;&gt;" />
+    <add key="DetAreaFinalPorta" value="&lt;/span&gt;" />
+    <add key="DetAreaBInitPorta" value="Área Bruta Privativa: 
+                                                    &lt;span class=&quot;caracteristicas-principais-valor&quot;&gt;" />
+    <add key="DetAreaBFinalPorta" value="&lt;/span&gt;" />
+    <add key="DetConcelhoInitPorta" value="&lt;small&gt;&lt;span&gt;" />
+    <add key="DetConcelhoFinalPorta" value="&lt;/span&gt;" />
+
+
+    <add key="IdImobSotheby" value="1014" />
+    <add key="PesqLinkInitSotheby" value="img_imovel&quot; href=&quot;" />
+    <add key="PesqLinkFinalSotheby" value="&quot;&gt;" />
+
+    <add key="DetIdInitSotheby" value="lbl_imovel_show_nui&quot;&gt;" />
+    <add key="DetIdFinalSotheby" value="&lt;/span&gt;" />
+    <add key="DetImagemDetalheInitSotheby" value="data-big=&quot;" />
+    <add key="DetImagemDetalheFinalSotheby" value="&quot; src=&quot;" />
+    <add key="DetDescricaoInitSotheby" value="style=&quot;margin-bottom:40px;&quot;&gt;" />
+    <add key="DetDescricaoFinalSotheby" value="&lt;div class=&quot;fclear&quot;&gt;" />
+    <add key="DetCondicaoInitSotheby" value="CONDIÇÃO: &lt;strong class=&quot;text-uppercase&quot;&gt;" />
+    <add key="DetCondicaoFinalSotheby" value="&lt;/strong&gt;" />
+    <add key="DetTipoInitSotheby" value="show_tipo_imovel&quot;&gt;" />
+    <add key="DetTipoFinalSotheby" value="&lt;/span&gt;" />
+    <add key="DetValorInitSotheby" value="&lt;span class=&quot;t11 bold branco line_height150&quot;&gt;" />
+    <add key="DetValorFinalSotheby" value="€" />
+    <add key="DetQuartosInitSotheby" value="&lt;div class=&quot;blockLeft num&quot;&gt;" />
+    <add key="DetQuartosFinalSotheby" value="&lt;/div&gt;" />
+    <add key="DetBanhoInitSotheby" value="&lt;div class=&quot;blockLeft num&quot;&gt;" />
+    <add key="DetBanhoFinalSotheby" value="&lt;/div&gt;&lt;div class=&quot;blockLeft wc&quot;&gt;" />
+    <add key="DetGaragemInitSotheby" value="&lt;div class=&quot;blockLeft num&quot;&gt;" />
+    <add key="DetGaragemFinalSotheby" value="&lt;/div&gt;&lt;div class=&quot;blockLeft garagem&quot;&gt;" />
+    <add key="DetTituloInitSotheby" value="&lt;title&gt;" />
+    <add key="DetTituloFinalSotheby" value="&lt;/title&gt;" />
+    <add key="DetAreaInitSotheby" value="nothing" />
+    <add key="DetAreaFinalSotheby" value="nothing" />
+    <add key="DetAreaBInitSotheby" value="&lt;div class=&quot;blockLeft num&quot;&gt;" />
+    <add key="DetAreaBFinalSotheby" value="&lt;/div&gt;&lt;div class=&quot;blockLeft area&quot;&gt;" />
+    <add key="DetConcelhoInitSotheby" value="NomeFreguesia&quot; value=&quot;" />
+    <add key="DetConcelhoFinalSotheby" value="&quot; /&gt;" />
+
+
+    <add key="IdImobIad" value="1015" />
+    <add key="PesqLinkInitIad" value="&lt;a href=&quot;/anuncio" />
+    <add key="PesqLinkFinalIad" value="&quot;" />
+
+    <add key="DetIdInitIad" value="Referência do imóvel :" />
+    <add key="DetIdFinalIad" value="&lt;/span&gt;" />
+    <add key="DetImagemDetalheInitIad" value="&lt;img src=&quot;https://www.iadportugal.pt/cache/ad_photo_thumb" />
+    <add key="DetImagemDetalheFinalIad" value="&quot;" />
+    <add key="DetDescricaoInitIad" value="Descrição" />
+    <add key="DetDescricaoFinalIad" value="&lt;div class=&quot;offer__content" />
+    <add key="DetCondicaoInitIad" value="CONDIÇÃO: &lt;strong class=&quot;text-uppercase&quot;&gt;" />
+    <add key="DetCondicaoFinalIad" value="&lt;/strong&gt;" />
+    <add key="DetTipoInitIad" value="show_tipo_imovel&quot;&gt;" />
+    <add key="DetTipoFinalIad" value="&lt;/span&gt;" />
+    <add key="DetValorInitIad" value="&lt;p class=&quot;price&quot;&gt;" />
+    <add key="DetValorFinalIad" value="&lt;span&gt;" />
+    <add key="DetQuartosInitIad" value="Nº quartos&lt;/p&gt;
+                                &lt;p&gt;
+                                    &lt;i class=&quot;demo-icon icon-bed&quot;&gt;&lt;/i&gt;" />
+    <add key="DetQuartosFinalIad" value="&lt;/p&gt;" />
+    <add key="DetBanhoInitIad" value="nothing" />
+    <add key="DetBanhoFinalIad" value="nothing" />
+    <add key="DetGaragemInitIad" value="nothing" />
+    <add key="DetGaragemFinalIad" value="nothing" />
+    <add key="DetTituloInitIad" value="&lt;title&gt;" />
+    <add key="DetTituloFinalIad" value="&lt;/title&gt;" />
+    <add key="DetAreaInitIad" value="Área&lt;/p&gt;
+                                &lt;p class=&quot;element-icone&quot;&gt;&lt;i class=&quot;demo-icon icon-flat-2&quot;&gt;&lt;/i&gt;
+                                    " />
+    <add key="DetAreaFinalIad" value="m²" />
+    <add key="DetAreaBInitIad" value="nothing" />
+    <add key="DetAreaBFinalIad" value="nothing" />
+    <add key="DetConcelhoInitIad" value="NomeFreguesia&quot; value=&quot;" />
+    <add key="DetConcelhoFinalIad" value="&quot; /&gt;" />
+
+    <!--return value.Replace("&", "&amp;").Replace("<", "&lt;").Replace(">", "&gt;").Replace("\"nothing", "&quot;").Replace("'", "&apos;");-->
+    <add key="IdImobSapo" value="1016" />
+    <add key="PesqLinkInitSapo" value="href=&quot;" />
+    <add key="PesqLinkFinalSapo" value="?fpn=" />
+
+    <add key="DetMediadorInitSapo" value="Contactar proprietário" />
+    <add key="DetMediadorFinalSapo" value="&lt;/p&gt;" />
+    <add key="DetIdInitSapo" value="nothing" />
+    <add key="DetIdFinalSapo" value="nothing" />
+    <add key="DetImagemDetalheInitSapo" value="https://media.casasapo.pt/Z" />
+    <add key="DetImagemDetalheFinalSapo" value="&quot;,&quot;" />
+    <add key="DetDescricaoInitSapo" value="&lt;p id=&quot;pDescription&quot;&gt;" />
+    <add key="DetDescricaoFinalSapo" value="&lt;/p&gt;" />
+    <add key="DetCondicaoInitSapo" value="nothing" />
+    <add key="DetCondicaoFinalSapo" value="nothing" />
+    <add key="DetTipoInitSapo" value="nothing" />
+    <add key="DetTipoFinalSapo" value="nothing" />
+    <add key="DetValorInitSapo" value="&lt;p class=&quot;detailPropertyPrice&quot;&gt;" />
+    <add key="DetValorFinalSapo" value="€" />
+    <add key="DetQuartosInitSapo" value="nothing" />
+    <add key="DetQuartosFinalSapo" value="nothing" />
+    <add key="DetBanhoInitSapo" value="Casa(s) de Banho" />
+    <add key="DetBanhoFinalSapo" value="&quot;" />
+    <add key="DetGaragemInitSapo" value="nothing" />
+    <add key="DetGaragemFinalSapo" value="nothing" />
+    <add key="DetTituloInitSapo" value="&lt;title&gt;" />
+    <add key="DetTituloFinalSapo" value="&lt;/title&gt;" />
+    <add key="DetAreaInitSapo" value="Área útil&lt;/span&gt;" />
+    <add key="DetAreaFinalSapo" value="&lt;/div&gt;" />
+    <add key="DetAreaBInitSapo" value="Área bruta&lt;/span&gt;" />
+    <add key="DetAreaBFinalSapo" value="&lt;/div&gt;" />
+    <add key="DetConcelhoInitSapo" value="&lt;p class=&quot;detailPropertyLocation&quot; title=&quot;" />
+    <add key="DetConcelhoFinalSapo" value="&quot;&gt;" />
+    <add key="DetTelefoneInitSapo" value="nothing" />
+    <add key="DetTelefoneFinalSapo" value="nothing" />
+    <add key="DetNomeInitSapo" value="&lt;p class=&quot;ownerName&quot;&gt;" />
+    <add key="DetNomeFinalSapo" value="&lt;/p&gt;" />
+
+
+    <!--return value.Replace("&", "&amp;").Replace("<", "&lt;").Replace(">", "&gt;").Replace("\"nothing", "&quot;").Replace("'", "&apos;");-->
+    <add key="IdImobIdealista" value="1017" />
+    <add key="PesqLinkInitIdealista" value="&lt;a href=&quot;/imovel/" />
+    <add key="PesqLinkFinalIdealista" value="/&quot;" />
+
+    <add key="DetMediadorInitIdealista" value="&lt;div class=&quot;name&quot;&gt; Particular" />
+    <add key="DetMediadorFinalIdealista" value="&lt;/div&gt;" />
+    <add key="DetIdInitIdealista" value="(ref:" />
+    <add key="DetIdFinalIdealista" value=")" />
+    <add key="DetImagemDetalheInitIdealista" value="https://img3.idealista.pt" />
+    <add key="DetImagemDetalheFinalIdealista" value="&quot;" />
+    <add key="DetDescricaoInitIdealista" value="&lt;div class=&quot;comment&quot;&gt;" />
+    <add key="DetDescricaoFinalIdealista" value="&lt;/div&gt;" />
+    <add key="DetCondicaoInitIdealista" value="nothing" />
+    <add key="DetCondicaoFinalIdealista" value="nothing" />
+    <add key="DetTipoInitIdealista" value="nothing" />
+    <add key="DetTipoFinalIdealista" value="nothing" />
+    <add key="DetValorInitIdealista" value="&lt;p class=&quot;info-data txt-big&quot;&gt; &lt;strong&gt;" />
+    <add key="DetValorFinalIdealista" value="€" />
+    <add key="DetQuartosInitIdealista" value="construídos &lt;span&gt;T" />
+    <add key="DetQuartosFinalIdealista" value="&lt;/span&gt;" />
+    <add key="DetBanhoInitIdealista" value="casa de banho &lt;/li&gt;" />
+    <add key="DetBanhoFinalIdealista" value="&lt;li&gt;" />
+    <add key="DetGaragemInitIdealista" value="nothing" />
+    <add key="DetGaragemFinalIdealista" value="nothing" />
+    <add key="DetTituloInitIdealista" value="&lt;title&gt;" />
+    <add key="DetTituloFinalIdealista" value="&lt;/title&gt;" />
+    <add key="DetAreaInitIdealista" value="nothing" />
+    <add key="DetAreaFinalIdealista" value="nothing" />
+    <add key="DetAreaBInitIdealista" value="€ &lt;span&gt;" />
+    <add key="DetAreaBFinalIdealista" value="&lt;/span&gt;" />
+    <add key="DetConcelhoInitIdealista" value="Localização&lt;/h2&gt;" />
+    <add key="DetConcelhoFinalIdealista" value="&lt;/ul&gt;" />
+    <add key="DetTelefoneInitIdealista" value="Phone icon-phone&quot;&gt;" />
+    <add key="DetTelefoneFinalIdealista" value="&lt;/p&gt;" />
+    <add key="DetNomeInitIdealista" value="Phone icon-phone&quot;&gt;" />
+    <add key="DetNomeFinalIdealista" value="&lt;/span&gt;" />
+
+
+    <!--return value.Replace("&", "&amp;").Replace("<", "&lt;").Replace(">", "&gt;").Replace("\"nothing", "&quot;").Replace("'", "&apos;");-->
+    <add key="IdImobIdealistaL" value="1017" />
+    <add key="PesqLinkInitIdealistaL" value="&lt;a href=&quot;/imovel/" />
+    <add key="PesqLinkFinalIdealistaL" value="/&quot;" />
+
+    <add key="DetMediadorInitIdealistaL" value="&lt;div class=&quot;name&quot;&gt; Particular" />
+    <add key="DetMediadorFinalIdealistaL" value="&lt;/div&gt;" />
+    <add key="DetIdInitIdealistaL" value="(ref:" />
+    <add key="DetIdFinalIdealistaL" value=")" />
+    <add key="DetImagemDetalheInitIdealistaL" value="https://img3.idealista.pt" />
+    <add key="DetImagemDetalheFinalIdealistaL" value="&quot;" />
+    <add key="DetDescricaoInitIdealistaL" value="&lt;div class=&quot;comment&quot;&gt;" />
+    <add key="DetDescricaoFinalIdealistaL" value="&lt;/div&gt;" />
+    <add key="DetCondicaoInitIdealistaL" value="nothing" />
+    <add key="DetCondicaoFinalIdealistaL" value="nothing" />
+    <add key="DetTipoInitIdealistaL" value="nothing" />
+    <add key="DetTipoFinalIdealistaL" value="nothing" />
+    <add key="DetValorInitIdealistaL" value="&lt;p class=&quot;info-data txt-big&quot;&gt; &lt;strong&gt;" />
+    <add key="DetValorFinalIdealistaL" value="€" />
+    <add key="DetQuartosInitIdealistaL" value="construídos &lt;span&gt;T" />
+    <add key="DetQuartosFinalIdealistaL" value="&lt;/span&gt;" />
+    <add key="DetBanhoInitIdealistaL" value="casa de banho &lt;/li&gt;" />
+    <add key="DetBanhoFinalIdealistaL" value="&lt;li&gt;" />
+    <add key="DetGaragemInitIdealistaL" value="nothing" />
+    <add key="DetGaragemFinalIdealistaL" value="nothing" />
+    <add key="DetTituloInitIdealistaL" value="&lt;title&gt;" />
+    <add key="DetTituloFinalIdealistaL" value="&lt;/title&gt;" />
+    <add key="DetAreaInitIdealistaL" value="nothing" />
+    <add key="DetAreaFinalIdealistaL" value="nothing" />
+    <add key="DetAreaBInitIdealistaL" value="€ &lt;span&gt;" />
+    <add key="DetAreaBFinalIdealistaL" value="&lt;/span&gt;" />
+    <add key="DetConcelhoInitIdealistaL" value="Localização&lt;/h2&gt;" />
+    <add key="DetConcelhoFinalIdealistaL" value="&lt;/ul&gt;" />
+    <add key="DetTelefoneInitIdealistaL" value="Phone icon-phone&quot;&gt;" />
+    <add key="DetTelefoneFinalIdealistaL" value="&lt;/p&gt;" />
+    <add key="DetNomeInitIdealistaL" value="Phone icon-phone&quot;&gt;" />
+    <add key="DetNomeFinalIdealistaL" value="&lt;/span&gt;" />
+
+    <!--return value.Replace("&", "&amp;").Replace("<", "&lt;").Replace(">", "&gt;").Replace("\"nothing", "&quot;").Replace("'", "&apos;");-->
+    <add key="IdImobImovirt" value="1018" />
+    <add key="PesqLinkInitImovirt" value="data-url=&quot;" />
+    <add key="PesqLinkFinalImovirt" value="&quot;" />
+    <add key="CurrentPagInitImovirt" value="&lt;strong class=&quot;current&quot;&gt;" />
+    <add key="CurrentPagFinalImovirt" value="&lt;/strong&gt;" />
+
+    <add key="DetMediadorInitImovirt" value="Contactar proprietário" />
+    <add key="DetMediadorFinalImovirt" value="&lt;/p&gt;" />
+    <add key="DetIdInitImovirt" value="nothing" />
+    <add key="DetIdFinalImovirt" value="nothing" />
+    <add key="DetImagemDetalheInitImovirt" value="&lt;img src=&quot;https://apollo-ireland.akamaized.net" />
+    <add key="DetImagemDetalheFinalImovirt" value="&quot;" />
+    <add key="DetDescricaoInitImovirt" value="&lt;div itemprop=&quot;description&quot;&gt;" />
+    <add key="DetDescricaoFinalImovirt" value="&lt;/div&gt;" />
+    <add key="DetCondicaoInitImovirt" value="nothing" />
+    <add key="DetCondicaoFinalImovirt" value="nothing" />
+    <add key="DetTipoInitImovirt" value="class=&quot;title&quot;&gt;" />
+    <add key="DetTipoFinalImovirt" value="para comprar" />
+    <add key="DetValorInitImovirt" value="&quot;ad_price&quot;:" />
+    <add key="DetValorFinalImovirt" value=",&quot;" />
+    <add key="DetQuartosInitImovirt" value="&lt;span class=&quot;light-text&quot;&gt;quartos&lt;/span&gt;" />
+    <add key="DetQuartosFinalImovirt" value="&lt;/span&gt;" />
+    <add key="DetBanhoInitImovirt" value="casas de banho:&lt;/strong&gt;" />
+    <add key="DetBanhoFinalImovirt" value="&lt;/li&gt;" />
+    <add key="DetGaragemInitImovirt" value="nothing" />
+    <add key="DetGaragemFinalImovirt" value="nothing" />
+    <add key="DetTituloInitImovirt" value="&lt;title&gt;" />
+    <add key="DetTituloFinalImovirt" value="&lt;/title&gt;" />
+    <add key="DetAreaInitImovirt" value="Área útil (m²) &lt;span&gt;&lt;strong&gt;" />
+    <add key="DetAreaFinalImovirt" value="m²" />
+    <add key="DetAreaBInitImovirt" value="Área bruta (m²):&lt;/strong&gt;" />
+    <add key="DetAreaBFinalImovirt" value="m²" />
+    <add key="DetConcelhoInitImovirt" value="&lt;p class=&quot;address-text&quot;&gt;" />
+    <add key="DetConcelhoFinalImovirt" value="&lt;/p&gt;" />
+    <add key="DetTelefoneInitImovirt" value="itemprop=&quot;telephone&quot;&gt;" />
+    <add key="DetTelefoneFinalImovirt" value="&lt;/strong&gt;" />
+    <add key="DetNomeInitImovirt" value="box-person-name&quot; itemprop=&quot;name&quot;&gt;" />
+    <add key="DetNomeFinalImovirt" value="&lt;/span&gt;" />
+
+
+    <!--return value.Replace("&", "&amp;").Replace("<", "&lt;").Replace(">", "&gt;").Replace("\"nothing", "&quot;").Replace("'", "&apos;");-->
+    <add key="IdImobImovirtL" value="1018" />
+    <add key="PesqLinkInitImovirtL" value="data-url=&quot;" />
+    <add key="PesqLinkFinalImovirtL" value="&quot;" />
+    <add key="CurrentPagInitImovirtL" value="&lt;strong class=&quot;current&quot;&gt;" />
+    <add key="CurrentPagFinalImovirtL" value="&lt;/strong&gt;" />
+
+    <add key="DetMediadorInitImovirtL" value="Contactar proprietário" />
+    <add key="DetMediadorFinalImovirtL" value="&lt;/p&gt;" />
+    <add key="DetIdInitImovirtL" value="nothing" />
+    <add key="DetIdFinalImovirtL" value="nothing" />
+    <add key="DetImagemDetalheInitImovirtL" value="&lt;img src=&quot;https://apollo-ireland.akamaized.net" />
+    <add key="DetImagemDetalheFinalImovirtL" value="&quot;" />
+    <add key="DetDescricaoInitImovirtL" value="&lt;div itemprop=&quot;description&quot;&gt;" />
+    <add key="DetDescricaoFinalImovirtL" value="&lt;/div&gt;" />
+    <add key="DetCondicaoInitImovirtL" value="nothing" />
+    <add key="DetCondicaoFinalImovirtL" value="nothing" />
+    <add key="DetTipoInitImovirtL" value="class=&quot;title&quot;&gt;" />
+    <add key="DetTipoFinalImovirtL" value="para comprar" />
+    <add key="DetValorInitImovirtL" value="&quot;ad_price&quot;:" />
+    <add key="DetValorFinalImovirtL" value=",&quot;" />
+    <add key="DetQuartosInitImovirtL" value="&lt;span class=&quot;light-text&quot;&gt;quartos&lt;/span&gt;" />
+    <add key="DetQuartosFinalImovirtL" value="&lt;/span&gt;" />
+    <add key="DetBanhoInitImovirtL" value="casas de banho:&lt;/strong&gt;" />
+    <add key="DetBanhoFinalImovirtL" value="&lt;/li&gt;" />
+    <add key="DetGaragemInitImovirtL" value="nothing" />
+    <add key="DetGaragemFinalImovirtL" value="nothing" />
+    <add key="DetTituloInitImovirtL" value="&lt;title&gt;" />
+    <add key="DetTituloFinalImovirtL" value="&lt;/title&gt;" />
+    <add key="DetAreaInitImovirtL" value="Área útil (m²) &lt;span&gt;&lt;strong&gt;" />
+    <add key="DetAreaFinalImovirtL" value="m²" />
+    <add key="DetAreaBInitImovirtL" value="Área bruta (m²):&lt;/strong&gt;" />
+    <add key="DetAreaBFinalImovirtL" value="m²" />
+    <add key="DetConcelhoInitImovirtL" value="&lt;p class=&quot;address-text&quot;&gt;" />
+    <add key="DetConcelhoFinalImovirtL" value="&lt;/p&gt;" />
+    <add key="DetTelefoneInitImovirtL" value="itemprop=&quot;telephone&quot;&gt;" />
+    <add key="DetTelefoneFinalImovirtL" value="&lt;/strong&gt;" />
+    <add key="DetNomeInitImovirtL" value="box-person-name&quot; itemprop=&quot;name&quot;&gt;" />
+    <add key="DetNomeFinalImovirtL" value="&lt;/span&gt;" />
+
+
+    <!--return value.Replace("&", "&amp;").Replace("<", "&lt;").Replace(">", "&gt;").Replace("\"nothing", "&quot;").Replace("'", "&apos;");-->
+    <add key="IdImobCentury" value="1019" />
+    <add key="PesqLinkInitCentury" value="&lt;a class=&quot;search-result-photo col-xs-8 col-sm-4&quot; href=&quot;" />
+    <add key="PesqLinkFinalCentury" value="&quot;&gt;" />
+    <add key="CurrentPagInitCentury" value="&lt;div class=&quot;total-search-results&quot;&gt;" />
+    <add key="CurrentPagFinalCentury" value="Resultados" />
+
+    <add key="DetMediadorInitCentury" value="Contactar proprietário" />
+    <add key="DetMediadorFinalCentury" value="&lt;/p&gt;" />
+    <add key="DetIdInitCentury" value="Anúncio #" />
+    <add key="DetIdFinalCentury" value="&lt;/div&gt;" />
+    <add key="DetImagemDetalheInitCentury" value="url=http%3A%" />
+    <add key="DetImagemDetalheFinalCentury" value="&quot; class=&quot;detail-image" />
+    <add key="DetDescricaoInitCentury" value="id=&quot;propertyRemarksSection&quot;&gt;" />
+    <add key="DetDescricaoFinalCentury" value="&lt;/div&gt;" />
+    <add key="DetCondicaoInitCentury" value="nothing" />
+    <add key="DetCondicaoFinalCentury" value="nothing" />
+    <add key="DetTipoInitCentury" value="&lt;div&gt;
+                            Residencial &amp;agrave; venda," />
+    <add key="DetTipoFinalCentury" value="&lt;/div&gt;" />
+    <add key="DetValorInitCentury" value="&lt;span dir=&quot;ltr&quot;&gt;&amp;euro;" />
+    <add key="DetValorFinalCentury" value="&lt;/span&gt;" />
+    <add key="DetQuartosInitCentury" value="quartos&lt;/div&gt;" />
+    <add key="DetQuartosFinalCentury" value="&lt;div&gt;" />
+    <add key="DetBanhoInitCentury" value="casas de banho&lt;/div&gt;" />
+    <add key="DetBanhoFinalCentury" value="&lt;div&gt;" />
+    <add key="DetGaragemInitCentury" value="nothing" />
+    <add key="DetGaragemFinalCentury" value="nothing" />
+    <add key="DetTituloInitCentury" value="&lt;title&gt;" />
+    <add key="DetTituloFinalCentury" value="&lt;/title&gt;" />
+    <add key="DetAreaInitCentury" value="nothing" />
+    <add key="DetAreaFinalCentury" value="nothing" />
+    <add key="DetAreaBInitCentury" value="::" />
+    <add key="DetAreaBFinalCentury" value="m&lt;sup&gt;2" />
+    <add key="DetConcelhoInitCentury" value="detail-data-primary&quot;&gt;" />
+    <add key="DetConcelhoFinalCentury" value="&lt;br/&gt;" />
+
+
+    <!--return value.Replace("&", "&amp;").Replace("<", "&lt;").Replace(">", "&gt;").Replace("\"nothing", "&quot;").Replace("'", "&apos;");-->
+    <add key="IdImobCjustoAp" value="1020" />
+    <add key="PesqLinkInitCjustoAp" value="data-name=&quot;url&quot; href=&quot;" />
+    <add key="PesqLinkFinalCjustoAp" value="&quot;&gt;" />
+    <add key="CurrentPagInitCjustoAp" value="venda?f=p&amp;o=" />
+    <add key="CurrentPagFinalCjustoAp" value="&amp;st=s&quot;&gt;" />
+
+    <add key="DetMediadorInitCjustoAp" value="Contactar proprietário" />
+    <add key="DetMediadorFinalCjustoAp" value="&lt;/p&gt;" />
+    <add key="DetIdInitCjustoAp" value="badge value&quot;&gt;" />
+    <add key="DetIdFinalCjustoAp" value="&lt;/span&gt;" />
+    <add key="DetImagemDetalheInitCjustoAp" value="&lt;img src=&quot;" />
+    <add key="DetImagemDetalheFinalCjustoAp" value="?rule=gallery" />
+    <add key="DetDescricaoInitCjustoAp" value="class=&quot;lead words&quot;&gt;" />
+    <add key="DetDescricaoFinalCjustoAp" value="&lt;/p&gt;" />
+    <add key="DetCondicaoInitCjustoAp" value="nothing" />
+    <add key="DetCondicaoFinalCjustoAp" value="nothing" />
+    <add key="DetTipoInitCjustoAp" value="" />
+    <add key="DetTipoFinalCjustoAp" value="&lt;/div&gt;" />
+    <add key="DetValorInitCjustoAp" value="real-price&quot;&gt;" />
+    <add key="DetValorFinalCjustoAp" value="&amp;euro;" />
+    <add key="DetQuartosInitCjustoAp" value="badge value &quot;&gt;T" />
+    <add key="DetQuartosFinalCjustoAp" value="&lt;/span&gt;" />
+    <add key="DetBanhoInitCjustoAp" value="nothing" />
+    <add key="DetBanhoFinalCjustoAp" value="noting" />
+    <add key="DetGaragemInitCjustoAp" value="nothing" />
+    <add key="DetGaragemFinalCjustoAp" value="nothing" />
+    <add key="DetTituloInitCjustoAp" value="name=&quot;title&quot; content=&quot;" />
+    <add key="DetTituloFinalCjustoAp" value="- CustoJusto.pt" />
+    <add key="DetAreaInitCjustoAp" value="nothing" />
+    <add key="DetAreaFinalCjustoAp" value="nothing" />
+    <add key="DetAreaBInitCjustoAp" value="m²" />
+    <add key="DetAreaBFinalCjustoAp" value="Área útil" />
+    <add key="DetConcelhoInitCjustoAp" value="badge value long&quot;&gt;" />
+    <add key="DetConcelhoFinalCjustoAp" value="&lt;/span&gt;" />
+    <add key="DetTelefoneInitCjustoAp" value="phone-dims&quot;&gt;&lt;/span&gt;" />
+    <add key="DetTelefoneFinalCjustoAp" value="&lt;span" />
+    <add key="DetNomeInitCjustoAp" value="&lt;h3 class=&quot;user words&quot;&gt;" />
+    <add key="DetNomeFinalCjustoAp" value="&lt;/strong&gt;" />
+  
+    <!--return value.Replace("&", "&amp;").Replace("<", "&lt;").Replace(">", "&gt;").Replace("\"nothing", "&quot;").Replace("'", "&apos;");-->
+    <add key="IdImobCjustoMo" value="1020" />
+    <add key="PesqLinkInitCjustoMo" value="data-name=&quot;url&quot; href=&quot;" />
+    <add key="PesqLinkFinalCjustoMo" value="&quot;&gt;" />
+    <add key="CurrentPagInitCjustoMo" value="venda?f=p&amp;o=" />
+    <add key="CurrentPagFinalCjustoMo" value="&amp;st=s&quot;&gt;" />
+
+    <add key="DetMediadorInitCjustoMo" value="Contactar proprietário" />
+    <add key="DetMediadorFinalCjustoMo" value="&lt;/p&gt;" />
+    <add key="DetIdInitCjustoMo" value="badge value&quot;&gt;" />
+    <add key="DetIdFinalCjustoMo" value="&lt;/span&gt;" />
+    <add key="DetImagemDetalheInitCjustoMo" value="&lt;img src=&quot;" />
+    <add key="DetImagemDetalheFinalCjustoMo" value="?rule=gallery" />
+    <add key="DetDescricaoInitCjustoMo" value="class=&quot;lead words&quot;&gt;" />
+    <add key="DetDescricaoFinalCjustoMo" value="&lt;/p&gt;" />
+    <add key="DetCondicaoInitCjustoMo" value="nothing" />
+    <add key="DetCondicaoFinalCjustoMo" value="nothing" />
+    <add key="DetTipoInitCjustoMo" value="" />
+    <add key="DetTipoFinalCjustoMo" value="&lt;/div&gt;" />
+    <add key="DetValorInitCjustoMo" value="real-price&quot;&gt;" />
+    <add key="DetValorFinalCjustoMo" value="&amp;euro;" />
+    <add key="DetQuartosInitCjustoMo" value="badge value &quot;&gt;T" />
+    <add key="DetQuartosFinalCjustoMo" value="&lt;/span&gt;" />
+    <add key="DetBanhoInitCjustoMo" value="nothing" />
+    <add key="DetBanhoFinalCjustoMo" value="noting" />
+    <add key="DetGaragemInitCjustoMo" value="nothing" />
+    <add key="DetGaragemFinalCjustoMo" value="nothing" />
+    <add key="DetTituloInitCjustoMo" value="name=&quot;title&quot; content=&quot;" />
+    <add key="DetTituloFinalCjustoMo" value="- CustoJusto.pt" />
+    <add key="DetAreaInitCjustoMo" value="nothing" />
+    <add key="DetAreaFinalCjustoMo" value="nothing" />
+    <add key="DetAreaBInitCjustoMo" value="m²" />
+    <add key="DetAreaBFinalCjustoMo" value="Área útil" />
+    <add key="DetConcelhoInitCjustoMo" value="badge value long&quot;&gt;" />
+    <add key="DetConcelhoFinalCjustoMo" value="&lt;/span&gt;" />
+    <add key="DetTelefoneInitCjustoMo" value="phone-dims&quot;&gt;&lt;/span&gt;" />
+    <add key="DetTelefoneFinalCjustoMo" value="&lt;span" />
+    <add key="DetNomeInitCjustoMo" value="&lt;h3 class=&quot;user words&quot;&gt;" />
+    <add key="DetNomeFinalCjustoMo" value="&lt;/strong&gt;" />
+  
+    </appSettings>
+  
+  <connectionStrings>
+    <add name="connectionStringTrevis" connectionString="data source=sql5030.site4now.net;initial catalog=DB_A19945_Imoveis;persist security info=True;user id=DB_A19945_Imoveis_admin;password=Enzo2017_w;MultipleActiveResultSets=True;App=EntityFramework " providerName="System.Data.SqlClient" />
+    <add name="connectionStringRemax" connectionString="data source=sql6004.site4now.net;initial catalog=DB_A37FF2_imoveis;persist security info=True;user id=DB_A37FF2_imoveis_admin;password=Shiloh33;MultipleActiveResultSets=True;App=EntityFramework " providerName="System.Data.SqlClient" />
+    <add name="connectionString" connectionString="data source=sql6002.site4now.net;initial catalog=DB_A37FF2_imoveis2;persist security info=True;user id=DB_A37FF2_imoveis2_admin;password=Enzo2017_w;MultipleActiveResultSets=True;App=EntityFramework " providerName="System.Data.SqlClient" />
+  </connectionStrings>
+
+</configuration>
